@@ -1,0 +1,14 @@
+@import "_reset.scss";
+body {
+   background: #e2e7ec;
+}
+.content {
+   width: 1140px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 360px);
+}
+.item {
+   height: 540px;
+   background: #ffffff;
+}
