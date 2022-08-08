@@ -91,15 +91,21 @@ body {
 }
 
 .content {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (360px)[auto-fit];
       grid-template-columns: repeat(auto-fit, 360px);
+  grid-gap: 20px;
 }
 
 .item {
   height: 540px;
   background: #ffffff;
+}
+
+.item-big {
+  grid-column: 1/-2;
+  background-image: url(/img/CAR1.png);
 }
